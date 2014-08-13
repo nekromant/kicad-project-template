@@ -1,0 +1,30 @@
+#!/bin/bash
+TEMPLATE_DIR="/home/necromant/Dev/hardware/template"
+echo -n "Project name, plz:"
+read project
+mkdir $project
+cd $project
+cp -v $TEMPLATE_DIR/* .
+rm *.brd
+
+echo "Pick a board template to start with"
+select brd in `ls $TEMPLATE_DIR/*.brd` none; do
+    cp $brd ${project}.brd
+    break
+done
+
+for r in `find $TEMPLATE_DIR/* -maxdepth 0 -type d|grep -v bits`; do
+    ln -sf $r `basename $r`
+done
+
+#We can't ln bits, sch stores data inside so we copy it over
+
+git clone $TEMPLATE_DIR/bits bits
+mv noname.pro "$project.pro"
+sed -i "s/noname/$project/" "$project.pro"
+sed -i "s/noname/$project/" user.mk
+git init .
+git add Makefile user.mk "$project.pro" 
+git commit -s -m "Initial commit"
+
+echo "Your project template is ready, sir"

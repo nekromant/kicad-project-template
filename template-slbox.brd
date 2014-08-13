@@ -1,0 +1,251 @@
+PCBNEW-BOARD Version 1 date Sat 12 Jul 2014 11:38:16 PM MSK
+
+# Created by Pcbnew(2012-apr-16-27)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 0
+NoConn 0
+Di 23107 6932 69341 57773
+Ndraw 12
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 4
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "12 jul 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 80
+TrackWidthList 118
+TrackWidthList 157
+TrackWidthList 236
+TrackWidthList 276
+TrackWidthList 669
+TrackWidthList 787
+TrackWidthList 1181
+TrackClearence 100
+ZoneClearence 276
+TrackMinWidth 80
+DrawSegmWidth 120
+EdgeSegmWidth 120
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 600
+EdgeModWidth 120
+TextModSize 500 500
+TextModWidth 100
+PadSize 394 394
+PadDrill 236
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue false) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory gerbers/1.0/))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 100
+TrackWidth 80
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+$EndNCLASS
+$MODULE 1pin
+Po 25197 21260 0 15 53C18E92 53B02EA7 ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 53B02EA7
+AR 1pin
+Op 0 0 0
+T0 0 -1200 400 400 0 100 N V 21 N ""
+T1 0 1100 400 400 0 100 N I 21 N "P***"
+DC 0 0 0 -900 150 21
+$PAD
+Sh "1" C 1600 1600 0 0 0
+Dr 1200 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  1pin
+$MODULE 1pin
+Po 50000 21260 0 15 53C18E95 53B02EB3 ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 53B02EB3
+AR 1pin
+Op 0 0 0
+T0 0 -1200 400 400 0 100 N V 21 N ""
+T1 0 1100 400 400 0 100 N I 21 N "P***"
+DC 0 0 0 -900 150 21
+$PAD
+Sh "1" C 1600 1600 0 0 0
+Dr 1200 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  1pin
+$MODULE 1pin
+Po 25197 46850 0 15 53C18E9F 53B02EE1 ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 53B02EE1
+AR 1pin
+Op 0 0 0
+T0 0 -1200 400 400 0 100 N V 21 N ""
+T1 0 1100 400 400 0 100 N I 21 N "P***"
+DC 0 0 0 -900 150 21
+$PAD
+Sh "1" C 1600 1600 0 0 0
+Dr 1200 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  1pin
+$MODULE 1pin
+Po 50000 46850 0 15 53C18E99 53B02EEA ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 53B02EEA
+AR 1pin
+Op 0 0 0
+T0 0 -1200 400 400 0 100 N V 21 N ""
+T1 0 1100 400 400 0 100 N I 21 N "P***"
+DC 0 0 0 -900 150 21
+$PAD
+Sh "1" C 1600 1600 0 0 0
+Dr 1200 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  1pin
+$DRAWSEGMENT
+Po 0 51969 47244 51969 20866 120
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 24803 48819 50394 48819 120
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 23228 20866 23228 47244 120
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$COTATION
+Ge 0 25 0
+Va 29528
+Te "75.001 mm"
+Po 66681 34055 600 600 120 2701 1
+Sb 0 66141 19291 66141 48819 120
+Sd 0 50000 48819 67221 48819 120
+Sg 0 50000 19291 67221 19291 120
+S1 0 66141 48819 65911 48376 120
+S2 0 66141 48819 66371 48376 120
+S3 0 66141 19291 65911 19734 120
+S4 0 66141 19291 66371 19734 120
+$endCOTATION
+$COTATION
+Ge 0 25 0
+Va 11024
+Te "28.001 mm"
+Po 39567 7532 600 600 120 0 1
+Sb 0 34055 8072 45079 8072 120
+Sd 0 45079 10433 45079 6992 120
+Sg 0 34055 10433 34055 6992 120
+S1 0 45079 8072 44636 8302 120
+S2 0 45079 8072 44636 7842 120
+S3 0 34055 8072 34498 8302 120
+S4 0 34055 8072 34498 7842 120
+$endCOTATION
+$COTATION
+Ge 0 25 0
+Va 14764
+Te "37.501 mm"
+Po 30610 11272 600 600 120 0 1
+Sb 0 23228 11812 37992 11812 120
+Sd 0 37992 21654 37992 10732 120
+Sg 0 23228 21654 23228 10732 120
+S1 0 37992 11812 37549 12042 120
+S2 0 37992 11812 37549 11582 120
+S3 0 23228 11812 23671 12042 120
+S4 0 23228 11812 23671 11582 120
+$endCOTATION
+$COTATION
+Ge 0 25 0
+Va 28741
+Te "73.002 mm"
+Po 37598 57232 600 600 120 0 1
+Sb 0 23228 56692 51969 56692 120
+Sd 0 51969 48819 51969 57772 120
+Sg 0 23228 48819 23228 57772 120
+S1 0 51969 56692 51526 56922 120
+S2 0 51969 56692 51526 56462 120
+S3 0 23228 56692 23671 56922 120
+S4 0 23228 56692 23671 56462 120
+$endCOTATION
+$DRAWSEGMENT
+Po 0 24803 19291 50394 19291 120
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 2 50395 47243 51970 47243 120
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 2 24803 47244 24803 48819 120
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 2 24803 20866 23228 20866 120
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 2 50394 20865 50394 19291 120
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
